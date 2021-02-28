@@ -3,18 +3,18 @@
 ## System description 
 
 **green_office** is a project thought to save our office from pollution and excessive urbanization. We want our wonderful plants to grow up and be green, even though we don't have green thumb. What is better than an automatic irrigation system to make them be every day greener than the day before?
-Since then we would like to check if they need water when we're on holiday too (we don't want them to die), we need to be able to control our automatic irrigation system remotely.
+We would like to check if they need water when we're on holiday too (we don't want them to die), we need to be able to control our automatic irrigation system remotely.
 But wait, what if someone wants to make our plants die? We'd cry :'(
 Solution: it's necessary to implement a security system in our IoT project! :D
 
 ## Possible future development
-Moreover it would be a good idea to collect acquired data (humidity for example) in a DB through NodeRED and a Raspberry Pi
+Moreover it would be a good idea to collect acquired data (humidity for example) in a DB through NodeRED and Raspberry Pi
 
-# TODO
 More specifically, 
-1. during a live meeting, captures the video from the webcam,
-2. modifies the video hiding the image of the speaker (e.g. blurring it), and
-3. generates one or more tokens that allows the listeners to un-hide the image of the speaker
+1. acquires data from humidity sensors,
+2. makes irrigation system works,
+3. understands when (after how many days) the plants need water (how much water?)
+4. generates one or more tokens that allows the listeners to un-hide the image of the speaker
 
 The [specification](https://en.wikipedia.org/wiki/Specification_(technical_standard)) of the system is 
 given by the requirements collected in the [requirements directory](./requirements).
