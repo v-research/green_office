@@ -7,6 +7,8 @@ pip install esptool
 
 ## 2. erase espXX memory
 esptool.py --port COMxx erase_flash
+esptool.py --port COM14 erase_flash
 
 ## 3. flash micropython firmware
 esptool.py --port COMxx --baud 460800 write_flash --flash_size=detect 0 esp32_file_name.bin
+esptool.py --port COM14 --baud 460800 write_flash --flash_size=detect 0 esp32-20210623-v1.16.bin
